@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    color:  rgb(196, 93, 93);
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    background-color: lemonchiffon;
+    
+
+}
+div {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px  rgb(196, 93, 93);
+    width: 30%;
+    
+}
+
+
+ul {
+    padding: 2rem;
+}
+
+li {
+    list-style: none;
+    padding: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+
+
+li:nth-child(even) {
+    border-bottom: solid 1px rgb(196, 93, 93);
+    padding-bottom: 1rem;   
+
+}
+
+li:last-child {
+    border-bottom: 0px;
+}
+
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 5rem;
+}
+
+a {
+    background-color: lightblue;
+    padding: 0.4rem;
+    margin: 0.2rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: solid 1px  rgb(196, 93, 93);
+}
+
+a:hover {
+    background-color: rgb(196, 93, 93);
+    color: lightskyblue;
+}
+
+@media (max-width: 1400px) {
+
+    div {
+        width: 50%;
+    }
+
+}
+@media (max-width: 700px) {
+
+    div {
+        width: 95%;
+    }
+
+}
