@@ -17,32 +17,18 @@ body {
     align-content: center;
     align-items: center;
     background-color: lemonchiffon;
-    
 
 
+}
+
+div {
+    padding: 1rem;
 }
 
 
 ul {
     padding: 2rem;
 }
-
-.asignaturas {
-    padding: 0.5rem;
-    margin: 0.5rem;
-    border: solid 1px rgb(196, 93, 93);
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
-}
-
-.asignaturas > p {
-    text-align: center;
-    align-self: center;
-}
-
 
 
 li {
@@ -56,6 +42,8 @@ li {
 
 
 
+
+
 li:nth-child(even) {
     border-bottom: solid 1px rgb(196, 93, 93);
     padding-bottom: 1rem;
@@ -66,11 +54,25 @@ li:last-child {
     border-bottom: 0px;
 }
 
+.asignaturas {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: solid 1px rgb(196, 93, 93);
+    background-color: rgb(196, 93, 93);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+
+}
+
 .listaEj2 {
     border: 0px;
     padding: 0px;
     border-bottom: 0pc;
     text-align: left;
+    color: lemonchiffon;
 
     
 }
@@ -156,18 +158,38 @@ pre {
     border-bottom: none;
 }
 
+
+
 img {
     max-width: 80%;
     padding-bottom: 1rem;
 }
 
-/*.inner06 {
-    padding: 0px;
+
+.main2 {
+    width: 60%;
+}
+table {
+    border-collapse: collapse;
+    text-align: center;
+    background-color:  rgb(196, 93, 93);
+    color: lemonchiffon;
+    border: solid 1px lemonchiffon;
+
+}
+
+td, th {
+    padding: 0.5rem;
+    font-size: 14px;
+    color: lemonchiffon;
+    border: solid 1px lemonchiffon;
     margin: 0px;
-    display: block;
-    background-color: orange;
-    font-family: 'Share Tech Mono', monospace;
-}*/
+
+
+}
+
+
+
 
 
 @media (max-width: 1400px) {

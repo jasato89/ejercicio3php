@@ -5,8 +5,8 @@
 function showName($name, $studies)
 {
 ?>
-    <p><b><?php echo ($name); ?></b></p>
-    <p><?php echo ($studies); ?></p>
+<p><b><?php echo ($name); ?></b></p>
+<p><?php echo ($studies); ?></p>
 <?php
 }
 
@@ -41,19 +41,29 @@ function printInvertedPyramid($n)
 }
 
 
+
 function printAddressAndSubjects($address) {
-    $asignaturas = array('PHP', 'Desarrollo Aplicaciones Multimedia','F', 'PSPRO', 'FOL');
+
+    $pspro = "Programación de servicios";
+    $hlc = "PHP";
+    $datos = "Acceso a datos";
+    $interfaces = "Desarrollo de interfaces";
+    $sistemas = "Sistemas de gestión empresarial";
+    $empresa = "Empresa";
+    $android = "Programación multimedia";
+    $asignaturas = array($pspro, $hlc, $datos, $interfaces, $sistemas, $empresa, $android);
     $arrayLength = count($asignaturas);
 
 
+
     ?> <p> <?php echo ($address); ?> </p>
-    
-    <?php 
+
+<?php 
     print('<ul class="asignaturas">');
-    print('<p><strong>Asignaturas</strong></p>');
+    print('<p><strong class="listaEj2">Asignaturas</strong></p>');
     for($i = 0; $i < $arrayLength ; $i++) {
     
-        print('<li class = "listaEj2">'.$asignaturas[$i].'</li>');
+        print('<li class="listaEj2">'.$asignaturas[$i].'</li>');
 
     }
 
@@ -61,3 +71,96 @@ function printAddressAndSubjects($address) {
 
 
 }
+
+function horario() {
+
+    $pspro = "Programación de servicios";
+    $hlc = "PHP";
+    $datos = "Acceso a datos";
+    $interfaces = "Desarrollo de interfaces";
+    $sistemas = "Sistemas de gestión empresarial";
+    $empresa = "Empresa";
+    $android = "Programación multimedia";
+
+?>
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>8.15 - 9.15</td>
+            <td><?php echo $pspro; ?></td>
+            <td><?php echo $hlc; ?></td>
+            <td><?php echo $android; ?></td>
+            <td><?php echo $interfaces; ?></td>
+            <td><?php echo $datos; ?></td>
+        </tr>
+        <tr>
+            <td>9.15 - 10.15</td>
+            <td><?php echo $hlc; ?></td>
+            <td><?php echo $interfaces; ?></td>
+            <td><?php echo $android; ?></td>
+            <td><?php echo $android; ?></td>
+            <td><?php echo $interfaces; ?></td>
+        </tr>
+        <tr>
+            <td>10.15 - 11.15</td>
+            <td><?php echo $datos; ?></td>
+            <td><?php echo $interfaces; ?></td>
+            <td><?php echo $hlc; ?></td>
+            <td><?php echo $android; ?></td>
+            <td><?php echo $interfaces; ?></td>
+        </tr>
+        <tr>
+            <td>11.15 - 11.45</td>
+            <td colspan="5">Patio</td>
+        </tr>
+        <tr>
+            <td>11.45 - 12.45</td>
+            <td><?php echo $datos; ?></td>
+            <td><?php echo $datos; ?></td>
+            <td><?php echo $interfaces; ?></td>
+            <td><?php echo $pspro; ?></td>
+            <td><?php echo $sistemas; ?></td>
+        </tr>
+        <tr>
+            <td>12.45 - 13.45</td>
+            <td><?php echo $interfaces; ?></td>
+            <td><?php echo $datos; ?></td>
+            <td><?php echo $empresa; ?></td>
+            <td><?php echo $empresa; ?></td>
+            <td><?php echo $empresa; ?></td>
+        </tr>
+        <tr>
+            <td>13.45 - 14.45</td>
+            <td><?php echo $sistemas; ?></td>
+            <td><?php echo $empresa; ?></td>
+            <td><?php echo $sistemas; ?></td>
+            <td><?php echo $sistemas; ?></td>
+            <td><?php echo $pspro; ?></td>
+        </tr>
+    </tbody>
+</table>
+
+<?php
+
+}
+
+    function showNameAndStudies() {
+        $nombre = "Jaume Sánchez Torres";
+        $ciclo = "Grado superior en Desarrollo de Aplicaciones Multiplataforma";
+
+        print('<p><strong>' . $nombre . '</strong></p>');
+        print('<p>' . $ciclo . '</p>');
+
+    }
+
+?>

@@ -9,12 +9,14 @@
 
 </head>
 
+<body>
+
+
 <h1>Soluciones de los ejercicios</h1>
 <h2>Ejercicio 1</h2>
 
 <div class="main">
-    <div class="innerDiv">
-
+    <div>
         <?php require 'functions.php';
          showName("Jaume Sánchez Torres", "Desarrollo de aplicaciones multiplataforma"); 
          ?>
@@ -31,8 +33,6 @@
     
 
 </div>
-
-<body>
 
 </body>
 

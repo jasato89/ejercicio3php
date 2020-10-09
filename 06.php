@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+<body>
+
 
 <h1>Soluciones de los ejercicios</h1>
 <h2>Ejercicio 6</h2>
 
-<div class="main">
+<div class="main main2">
     <div class="inner06">
     <pre>
 <?php require 'functions.php';
@@ -30,8 +32,6 @@ printInvertedPyramid(10);
 
 
 </div>
-
-<body>
 
 </body>
 

@@ -8,14 +8,16 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+<body>
 
 <h1>Soluciones de los ejercicios</h1>
 <h2>Ejercicio 1</h2>
 
-<div>
-    <div class="innerDiv">
-        <p><b><?php echo("Jaume Sánchez Torres"); ?></b></p>
-        <p><?php echo("Desarrollo de aplicaciones multiplataforma"); ?></p>
+<div class="main">
+    <div>
+        <?php require 'functions.php';
+         showName("Jaume Sánchez Torres", "Desarrollo de aplicaciones multiplataforma"); 
+         ?>
     </div>
 
     <div class="innerDiv">
@@ -23,10 +25,13 @@
         
     </div>
     <img src="01.png" alt="">
+    <li><a href="index.php" class="goback">Volver a los ejercicios</a></li>
+
+ 
+    
 
 </div>
 
-<body>
 
 </body>
 
