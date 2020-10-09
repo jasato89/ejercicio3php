@@ -10,12 +10,13 @@
 </head>
 
 <h1>Soluciones de los ejercicios</h1>
-<h2>Ejercicio 1</h2>
+<h2>Ejercicio 2</h2>
 
-<div>
+<div class="main">
     <div class="innerDiv">
-        <p><b><?php echo("Jaume Sánchez Torres"); ?></b></p>
-        <p><?php echo("Desarrollo de aplicaciones multiplataforma"); ?></p>
+        <?php require 'functions.php';
+        showName("Jaume Sánchez Torres", "Desarrollo de aplicaciones multiplataforma"); 
+        printAddressAndSubjects("PLaza Inmaculada 5 8A")?>
     </div>
 
     <div class="innerDiv">
@@ -23,6 +24,10 @@
         
     </div>
     <img src="01.png" alt="">
+    <li><a href="index.php" class="goback">Volver a los ejercicios</a></li>
+
+ 
+    
 
 </div>
 

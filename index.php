@@ -11,11 +11,11 @@
 <body>
     <h1>Boletin variables</h1>
 
-    <div>
+    <div class="main">
         <ul>
             <li>Escribe un programa que muestre tu nombre por pantalla, nombre del ciclo formativo que estás
                 realizando y curso.</li>
-            <li><a href="">Solución</a></li>
+            <li><a href="01.php">Solución</a></li>
             <li>Modifica el programa anterior para que muestre tu dirección, nombre de las asignaturas
                 del ciclo.El texto debe aparecer en una línea diferente.</li>
             <li><a href="">Solución</a></li>
@@ -28,7 +28,7 @@
             <li>Crea un conversor de moneda, de dólares a libras Australianos. Haz uso de variables.</li>
             <li><a href="">Solución</a></li>
             <li>Pinta una pirámide invertida y hueca con asteriscos.</li>
-            <li><a href="">Solución</a></li>
+            <li><a href="06.php">Solución</a></li>
 
         </ul>
     </div>
