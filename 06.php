@@ -14,10 +14,11 @@
 
 <div class="main">
     <div class="inner06">
-        <pre>
-    <?php require 'functions.php';
-    printInvertedPyramid(15); ?> 
-    </pre>
+    <pre>
+<?php require 'functions.php';
+printInvertedPyramid(10);
+?>
+</pre>
     </div>
     
     <div class="innerDiv">
