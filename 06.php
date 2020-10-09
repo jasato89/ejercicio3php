@@ -28,7 +28,7 @@ printInvertedPyramid(10);
 
     </div>
     <img src="06.png" alt="">
-    <li><a href="index.php" class="goback">Volver a los ejercicios</a></li>
+    <li><a class="button goback" href="index.php">Volver a los ejercicios</a></li>
 
 
 </div>

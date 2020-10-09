@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 1</title>
+    <title>Ejercicio 2</title>
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -25,7 +25,7 @@
         <h3>Código fuente:</h3>
     </div>
     <img src="02.png" alt="">
-    <a href="index.php" class="goback">Volver a los ejercicios</a>
+    <a class="button goback" href="index.php">Volver a los ejercicios</a>
     
 
  

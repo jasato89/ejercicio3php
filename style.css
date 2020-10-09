@@ -5,6 +5,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-size: 16px;
     font-family: 'Lato', sans-serif;
     color: rgb(196, 93, 93);
 
@@ -40,10 +41,6 @@ li {
     text-align: justify;
 }
 
-
-
-
-
 li:nth-child(even) {
     border-bottom: solid 1px rgb(196, 93, 93);
     padding-bottom: 1rem;
@@ -74,8 +71,9 @@ li:last-child {
     text-align: left;
     color: lemonchiffon;
 
-    
+
 }
+
 .listaEj2:nth-child(even) {
     border: 0px;
     padding-bottom: 0px;
@@ -87,16 +85,28 @@ h1 {
     text-align: center;
 }
 
-a {
+h2 {
+    font-size: 2rem;
+}
+
+.button {
     background-color: lightblue;
     padding: 0.4rem;
     margin: 0.2rem;
     font-size: 1.2rem;
     text-decoration: none;
     border: solid 1px rgb(196, 93, 93);
+    border-radius: 4px;
 }
 
-a:hover {
+.redbg {
+    padding: 0.2rem;
+    background-color: transparent;
+    text-align: center;
+
+}
+
+.button:hover {
     background-color: rgb(196, 93, 93);
     color: lightskyblue;
 }
@@ -109,7 +119,7 @@ a:hover {
     align-items: center;
     border: solid 1px rgb(196, 93, 93);
     width: 40%;
-   
+
 
 }
 
@@ -127,8 +137,6 @@ a:hover {
 
 }
 
-
-
 pre {
     font-family: monospace;
     padding: 0px;
@@ -138,10 +146,10 @@ pre {
     align-content: center;
     align-items: center;
     font-family: 'Share Tech Mono', monospace;
-    
+
 }
 
-.goback{
+.goback {
     background-image: url('goback-button.png');
     background-position: 4% 50%;
     background-size: 2rem;
@@ -150,47 +158,79 @@ pre {
     padding: 1rem;
     padding-left: 3rem;
 
-    
+}
 
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+
+input {
+    width: 80%;
+    background-color: lemonchiffon;
+    margin-top: 0.2rem;
+    border: solid 1px rgb(196, 93, 93);
+    margin: 0.2rem;
+}
+
+select {
+    width: 80%;
+    background-color: lemonchiffon;
+    margin-top: 0.2rem;
+    border: solid 1px rgb(196, 93, 93);
+    margin: 0.2rem;
+}
+
+.roundedconversion {
+    padding: 2rem 2rem;
+    border: solid 1px rgb(196, 93, 93);
+    background-color: rgb(196, 93, 93);
+    color: lemonchiffon;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.roundedconversion>p {
+    text-align: center;
 }
 
 .innerDiv:last-child {
     border-bottom: none;
 }
 
-
-
 img {
     max-width: 80%;
     padding-bottom: 1rem;
 }
 
-
 .main2 {
     width: 60%;
 }
+
 table {
     border-collapse: collapse;
     text-align: center;
-    background-color:  rgb(196, 93, 93);
+    background-color: rgb(196, 93, 93);
     color: lemonchiffon;
     border: solid 1px lemonchiffon;
-
 }
 
-td, th {
+td,
+th {
     padding: 0.5rem;
     font-size: 14px;
     color: lemonchiffon;
     border: solid 1px lemonchiffon;
     margin: 0px;
 
-
 }
-
-
-
-
 
 @media (max-width: 1400px) {
 

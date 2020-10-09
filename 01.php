@@ -27,7 +27,7 @@
         
     </div>
     <img src="01.png" alt="">
-    <li><a href="index.php" class="goback">Volver a los ejercicios</a></li>
+    <li><a class="button goback" href="index.php">Volver a los ejercicios</a></li>
 
  
     
