@@ -90,7 +90,7 @@ h2 {
 }
 
 .button {
-    background-color: lightblue;
+    
     padding: 0.4rem;
     margin: 0.2rem;
     font-size: 1.2rem;
@@ -108,7 +108,7 @@ h2 {
 
 .button:hover {
     background-color: rgb(196, 93, 93);
-    color: lightskyblue;
+    color: lemonchiffon;
 }
 
 .main {
